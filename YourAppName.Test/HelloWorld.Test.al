@@ -8,7 +8,7 @@ codeunit 50100 "HelloWorld Test"
     var
         CustList: TestPage "Customer List";
     begin
-        CustList.OpenView();
+        CustList.Open();
         CustList.Close();
         if (not MessageDisplayed) then
             ERROR('Message was not displayed!');
@@ -17,7 +17,7 @@ codeunit 50100 "HelloWorld Test"
     [MessageHandler]
     procedure HelloWorldMessageHandler(Message: Text[1024])
     begin
-        MessageDisplayed := MessageDisplayed or (Message = 'SIM');
+        MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello world.');
     end;
 
     var
