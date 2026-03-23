@@ -4,7 +4,7 @@ tableextension 50100 CustomerExt extends Customer
     {
         field(50100; "Active"; Boolean)
         {
-            //DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Active';
         }
     }

@@ -10,7 +10,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
         {
             field("Active"; Rec."Active")
             {
-                //DataClassification = ToBeClassified;
+                ApplicationArea = All;
             }
         }
     }
