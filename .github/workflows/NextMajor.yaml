@@ -10,8 +10,6 @@ concurrency:
    group: next-version-tests
    cancel-in-progress: false
 
-
-
 permissions:
   actions: read
   contents: read
