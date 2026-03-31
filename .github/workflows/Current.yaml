@@ -7,7 +7,7 @@ on:
     - Test
 
 concurrency:
-   group: next-version-tests
+   group: next-version-tests-current
    cancel-in-progress: false
 
 permissions:
