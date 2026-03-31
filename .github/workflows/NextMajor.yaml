@@ -5,6 +5,10 @@ on:
  pull_request:
   branches:
     - Test
+
+ workflow_run:
+    workflows: ["Test Current"]
+    types: [completed]
       
 concurrency:
    group: next-version-tests-major
