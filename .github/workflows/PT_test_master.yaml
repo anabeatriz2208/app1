@@ -1,4 +1,4 @@
-name: Test Master Pipeline (Current → Major → Minor)
+name: PT Test Master Pipeline (Current → Major → Minor)
 
 on:
   pull_request:
